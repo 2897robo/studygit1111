@@ -27,4 +27,9 @@ git show '커밋ID'
 git diff
 
 5장. 서버
+echo "# gitstudy" >> README.md
+git add README.md
+git commit
 
+git remote add origin 원격주소
+git remote -v
