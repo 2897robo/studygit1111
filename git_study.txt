@@ -1,0 +1,30 @@
+1장. 깃과 버전관리
+
+2장. 깃과 소스트리 설치 및 환경설정
+git config --global user.name "이름"
+git config --global user.email "이메일"
+code 파일명
+
+3장. 깃 개념잡기
+git init .
+git add 파일명
+working directory -> stage -> repository
+
+git status
+vim .gitignore -> .gitignore \n main.py \n * ! #
+git clone "https://~" 폴더이름
+
+4장. 커밋
+git add .
+git rm --cached main.py
+git mv 파일이름 새이름
+git commit -am '메시지'
+git config --global core.editor 'vim이외 에디터 경로'
+git commit --allow-empty-message -am ""
+git commit --amend (방금 커밋메시지 수정)
+git log --pretty=short (앞줄)
+git show '커밋ID'
+git diff
+
+5장. 서버
+
